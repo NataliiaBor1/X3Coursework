@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8aa875c6-e1bf-4c89-970b-50cdd9c919ac" name="Changes" comment="Push and Commit Test">
-      <change beforePath="$PROJECT_DIR$/src/unit1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1/Main.java" afterDir="false" />
+    <list default="true" id="8aa875c6-e1bf-4c89-970b-50cdd9c919ac" name="Changes" comment="add all up-to-date files from CupcakeWeek">
+      <change afterPath="$PROJECT_DIR$/src/unit2/Chocolate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit2/Cupcake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit2/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit2/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit2/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit2/RedVelvet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit2/Soda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unit2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,9 +39,35 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/netbo/IdeaProjects/X3Coursework/src/unit2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\netbo\IdeaProjects\X3Coursework\src\unit2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit2.Main" />
+      <module name="X3Coursework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664391762445</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Testing authorization">
+      <created>1664397415418</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664397415418</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,6 +107,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Push and Commit Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push and Commit Test" />
+    <MESSAGE value="Testing authorization" />
+    <MESSAGE value="add all up-to-date files from CupcakeWeek" />
+    <option name="LAST_COMMIT_MESSAGE" value="add all up-to-date files from CupcakeWeek" />
   </component>
 </project>
