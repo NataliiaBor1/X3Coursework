@@ -59,6 +59,7 @@ public class Main {
         for (int i = 0; i < cupcakeMenu.size(); i++) {
             System.out.println(cupcakeMenu.get(i));
         }
+        System.out.println("-------------------------");
 
         ArrayList<Drink> drinkMenu = new ArrayList<Drink>();
 
@@ -112,6 +113,7 @@ public class Main {
         for (int i = 0; i < drinkMenu.size(); i++) {
             System.out.println(drinkMenu.get(i));
         }
+        System.out.println("-------------------------");
 
         new Order(cupcakeMenu, drinkMenu);
     }

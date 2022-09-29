@@ -29,6 +29,4 @@ public class Cupcake {
     public String toString() {
         return this.name;
     }
-
-
 }

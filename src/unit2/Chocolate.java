@@ -3,7 +3,7 @@ package unit2;
 public class Chocolate extends Cupcake{
 
     public Chocolate() {
-        setName("Chocolate");
+        setName("Chocolate cupcake");
     }
 
     @Override
