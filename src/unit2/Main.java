@@ -1,6 +1,7 @@
 package unit2;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -60,6 +61,11 @@ public class Main {
             System.out.println(cupcakeMenu.get(i));
         }
         System.out.println("-------------------------");
+
+
+    System.out.println(Arrays.toString(cupcakeMenu.toArray()));
+
+
 
         ArrayList<Drink> drinkMenu = new ArrayList<Drink>();
 

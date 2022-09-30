@@ -82,10 +82,59 @@ public class Order {
                 }
             }
             System.out.println("__________________________\n");
-            System.out.println("YOUR ORDER: ");
+            System.out.println("YOUR INITIAL ORDER: ");
             for (Object x : order) {
                 System.out.println(x);
             }
+            System.out.println("__________________________\n");
+
+            System.out.println("YOUR FINAL ORDER: ");
+            System.out.println("TODAY IS: " + order.get(0));
+            System.out.println("CURRENT TIME IS: " + order.get(1));
+            System.out.println("ITEMS YOU ORDERED: ");
+
+            double subtotal = 0.0;
+
+            for (int i = 2; i < order.size(); i++) {
+                if (order.get(i).equals(cupcakeMenu.get(0))) {
+                    cupcakeMenu.get(0).type();
+                    cupcakeMenu.get(0).getPrice();
+                    subtotal = subtotal + cupcakeMenu.get(0).getPrice();
+                } else if (order.get(i).equals(cupcakeMenu.get(1))) {
+                    cupcakeMenu.get(1).type();
+                    cupcakeMenu.get(1).getPrice();
+                    subtotal = subtotal + cupcakeMenu.get(1).getPrice();
+                }
+                else if (order.get(i).equals(cupcakeMenu.get(2))) {
+                    cupcakeMenu.get(2).type();
+                    cupcakeMenu.get(2).getPrice();
+                    subtotal = subtotal + cupcakeMenu.get(2).getPrice();
+                }
+                else if (order.get(i).equals(drinkMenu.get(0))) {
+                    drinkMenu.get(0).type();
+                    drinkMenu.get(0).getPrice();
+                    subtotal = subtotal + drinkMenu.get(0).getPrice();
+                }
+                else if (order.get(i).equals(drinkMenu.get(1))) {
+                    drinkMenu.get(1).type();
+                    drinkMenu.get(1).getPrice();
+                    subtotal = subtotal + drinkMenu.get(1).getPrice();
+                }
+                else if (order.get(i).equals(drinkMenu.get(2))) {
+                    drinkMenu.get(2).type();
+                    drinkMenu.get(2).getPrice();
+                    subtotal = subtotal + drinkMenu.get(2).getPrice();
+                }
+            }
+            System.out.println("SUBTOTAL AMOUNT : $" + subtotal + "\n");
+            System.out.println("__________________________\n");
+            System.out.println("THANK YOU FOR SHOPPING WITH US TODAY!");
+            String y = Character.toString( 128_512 );
+            System.out.println("HAVE A GREAT DAY! " + y);
+            System.out.println("__________________________\n");
+
+            new CreateFile();
+            new WriteToFile(order);
         }
         else {
             System.out.println("Have a nice day then.");
